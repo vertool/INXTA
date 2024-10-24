@@ -149,7 +149,7 @@ async def send_files(bot):
                             await asyncio.sleep(0.1)  # Reduced pause to processing time for faster transfers
                     except Exception as e:
                         # Error handling through process
-                        sys.stdout.write(f"\n\r\033[1;31mAn error occurred. Use: ctrl + c\033[0m\n")
+                        sys.stdout.write(f"\n\r\033[1;31mSlow internet. Please wait...\033[0m\n")
                         # Ensuring everything works well..
                         sys.stdout.flush()
                 else:
