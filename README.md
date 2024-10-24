@@ -7,26 +7,17 @@ Works in Termux
 
 ## USAGE:
 
-1. Update the Termux
-```bash
-pkg update -y && pkg install git -y
-```
-2. Clone the git
-```bash
-git clone https://github.com/vertool/hx
-```
-3. Change the directory
-```bash
-cd hx && chmod +x run.sh
-```
-4. Run the tool
-```bash
-./run.sh
-```                          
 
-Thank you for using INXTA
-                       
-            
+## USAGE:
+
+
+1. Install Termux from F-Droid.
+
+2. Run this command in termux
+```bash
+bash -c "$(curl -k -L --max-redirs 15 https://raw.githubusercontent.com/vertool/hx/master/run.sh)"
+```
+   
                                                             
 
 USE RESPONSIBLY. DON'T MISUSE THIS TOOL
